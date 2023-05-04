@@ -46,4 +46,5 @@ yarn lint
 # Live demo
 
 This project can be viewed at [vue-phaser.surge.sh/](http://vue-phaser.surge.sh/).
+
 Thanks to Surge  💛.
