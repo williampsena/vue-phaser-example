@@ -1,0 +1,10 @@
+body {
+  margin: 2rem;
+  background-color: #fff;
+  display: block;
+}
+
+#app{
+  display: flex;
+  justify-content: center;
+}
