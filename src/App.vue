@@ -10,11 +10,11 @@ const pause = () => emit('pause')
 
 <template>
   <div class="game">
+    <div class="buttons">
+      <button type="button" @click="pause">✋ Pause</button>
+    </div>
     <img :src="televisionImage" />
     <PhaserGame :createGame="game" v-if="game" />
-  </div>
-  <div class="buttons">
-    <button type="button" @click="pause">✋ Pause</button>
   </div>
 </template>
 
@@ -27,8 +27,9 @@ const pause = () => emit('pause')
 .buttons {
   display: inline;
   position: absolute;
-  left: 24rem;
+  left: 28rem;
   top: 7rem;
+  z-index: 1;
 }
 
 button {
