@@ -40,7 +40,7 @@ export class VueScene extends Phaser.Scene {
   create() {
     this.text = this.add.text(100, this.cameras.main.height / 2 - 100, 'More information can be found at willsena.dev.')
 
-    this.logo = this.add.image(800, this.cameras.main.height / 2 + 60, 'meme')
+    this.logo = this.add.image(-100, this.cameras.main.height / 2 + 60, 'meme')
     this.logo.scale = 0.25
 
     NuxtPhaser.eventEmitter?.addListener('pause', this.pauseGame, this)

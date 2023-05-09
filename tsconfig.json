@@ -9,8 +9,7 @@
     "types": ["node"],
     "typeRoots": [
       "./node_modules/@types",
-      "./node_modules/phaser/types",
-      "./node_modules/nuxtjs-phaser/types",
+      "./node_modules/phaser/types"
     ]
   },
   "references": [

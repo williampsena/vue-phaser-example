@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import PhaserGame from 'nuxtjs-phaser/dist/phaserGame.vue'
+import PhaserGame from 'nuxtjs-phaser/phaserGame.vue'
 import { getGame } from '@/game'
 import televisionImage from '@/assets/television.png'
 

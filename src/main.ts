@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import vuePhaserPlugin from 'nuxtjs-phaser/dist/vue.index'
+import vuePhaserPlugin from 'nuxtjs-phaser/vue.index'
 
 import './assets/main.css'
 
