@@ -33,7 +33,6 @@ export class VueScene extends Phaser.Scene {
   }
 
   preload() {
-    console.log('pre-load', meme)
     this.load.image('meme', meme)
   }
 
